@@ -1,0 +1,17 @@
+
+
+body{
+	background-color:red;
+}
+
+a{
+	color:#FF0000;
+}
+
+.lien{
+	margin-left: 1500px;
+	text-decoration:none;
+}
+.help { 
+	margin-right:  1000px;
+}

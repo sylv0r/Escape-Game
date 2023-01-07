@@ -1,0 +1,64 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+        <!-- importer le fichier de style -->
+        <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    </head>
+    <body >
+        <script language=JavaScript>
+        {
+            
+            var a="yeee", z="ez";
+        function check()
+        {
+        if (document.a.c.value == a && document.z.d.value == z )
+        {
+        document.location.href="salle2.html";
+        }
+        else
+        {
+        alert ("nein");
+        }
+        }
+        }
+    </script>
+<div class="parent">
+    <div class="help">
+            <button type="button" value="Cliquez ici" onclick="afficher()">
+                <img src="interogation.png" style="width: 20%">
+
+            </button>
+        
+    </div>
+        <div class="connexion">
+        <div id="container" style="background-color: red">
+            <!-- zone de connexion -->
+            <div class="fo">
+            <form name="a" action="javascript:check()">
+              
+                
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="c" requiredaction="javascript:check()">
+            </form> 
+
+            <form name="z" action="javascript:check()">
+              
+                
+                <label><b>Mot de Passe</b></label>
+                <input type="password" placeholder="Entrer le mdp" name="d" requiredaction="javascript:check()">
+
+                <input type="submit" value=" Log In ">
+            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <SCRIPT LANGUAGE="JavaScript">
+    function afficher()
+    {
+    alert("use source code ;)")
+    }
+
+</SCRIPT>
+    </body>
+</html>
